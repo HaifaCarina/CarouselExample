@@ -1,0 +1,394 @@
+TCarouselExample
+v7
+r0
+t333011698.809496
+cCheck dependencies
+cProcessInfoPlistFile "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/Info.plist" CarouselExample-Info.plist
+cCompileXIB "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/MainWindow.xib"
+cCompileXIB "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExampleViewController.xib"
+cCpResource build/Debug-iphonesimulator/CarouselExample.app/spongebob.png spongebob.png
+cCpResource build/Debug-iphonesimulator/CarouselExample.app/patrickstar.png patrickstar.png
+cCpResource build/Debug-iphonesimulator/CarouselExample.app/smiley1.jpg smiley1.jpg
+cCpResource build/Debug-iphonesimulator/CarouselExample.app/smiley2.jpg smiley2.jpg
+cCpResource build/Debug-iphonesimulator/CarouselExample.app/smiley3.jpg smiley3.jpg
+cProcessPCH /var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch.gch CarouselExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/main.o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleAppDelegate.o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleViewController.o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/iCarousel.o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/iCarousel/iCarousel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample" normal i386
+cGenerateDSYMFile "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app.dSYM" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample"
+cTouch "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D9EE41F0000000000000110
+t1302258719
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExampleViewController.xib
+c000000004E2914460000000000001A65
+t1311315014
+s6757
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExample_Prefix.pch
+c000000004E29144600000000000000C7
+t1311315014
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleAppDelegate.h
+c000000004E291446000000000000020A
+t1311315014
+s522
+i<UIKit/UIKit.h>
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleAppDelegate.m
+c000000004E29186B0000000000000AB8
+t1311316075
+s2744
+i"CarouselExampleAppDelegate.h"
+i"CarouselExampleViewController.h"
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleViewController.h
+c000000004E29222B0000000000000142
+t1311318571
+s322
+i<UIKit/UIKit.h>
+i"iCarousel.h"
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleViewController.m
+c000000004E29248300000000000007BD
+t1311319171
+s1981
+i"CarouselExampleViewController.h"
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/iCarousel/iCarousel.h
+c000000004E281B5D00000000000014E7
+t1311251293
+s5351
+i<QuartzCore/QuartzCore.h>
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/iCarousel/iCarousel.m
+c000000004E25407400000000000094CE
+t1311064180
+s38094
+i"iCarousel.h"
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/MainWindow.xib
+c000000004E2914460000000000004E89
+t1311315014
+s20105
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExample.LinkFileList
+c000000004E2915A100000000000002A4
+t1311315361
+s676
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleAppDelegate.o
+t1311318655
+s53344
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleViewController.o
+t1311318898
+s49424
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/iCarousel.o
+t1311315375
+s143584
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/main.o
+t1311315374
+s6340
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app
+t1311318898
+s408
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app.dSYM
+t1311318898
+s102
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample
+t1311318898
+s78432
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExampleViewController.nib
+t1311315367
+s795
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/Info.plist
+t1311315361
+s629
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/MainWindow.nib
+t1311315367
+s1139
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/PkgInfo
+t1311315361
+s8
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/patrickstar.png
+t1311315367
+s21095
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/smiley1.jpg
+t1311315367
+s10568
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/smiley2.jpg
+t1311315367
+s11144
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/smiley3.jpg
+t1311315367
+s9915
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/spongebob.png
+t1311315367
+s38540
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/main.m
+c000000004E291446000000000000016C
+t1311315014
+s364
+i<UIKit/UIKit.h>
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/patrickstar.png
+c000000004E290E7B0000000000005267
+t1311313531
+s21095
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley1.jpg
+c000000004DEDDA640000000000002948
+t1307433572
+s10568
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley2.jpg
+c000000004DEDDA9D0000000000002B88
+t1307433629
+s11144
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley3.jpg
+c000000004DEDDAB900000000000026BB
+t1307433657
+s9915
+
+N/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/spongebob.png
+c000000004E291048000000000000968C
+t1311313992
+s38540
+
+N/var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch.gch
+t1311315374
+s15453392
+
+NCarouselExample-Info.plist
+c000000004E291446000000000000038D
+t1311315014
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333011696#333011696#0(0"0(0#1#0"8615165440#0"0#
+
+CCompileC build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleAppDelegate.o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s333011454.852675
+e333011455.203393
+r1
+xCompileC
+xbuild/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleAppDelegate.o
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleAppDelegate.m333011454#333011455#0(0"0(0#0#93"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleAppDelegate.m8617667328#2346"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-generated-files.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-own-target-headers.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-all-target-headers.hmap" -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-project-headers.hmap" "-F/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/include" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources/i386" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources" -include /var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch -c "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleAppDelegate.m" -o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleAppDelegate.o"0#
+
+CCompileC build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleViewController.o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s333011696.839840
+e333011698.495108
+r1
+xCompileC
+xbuild/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleViewController.o
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleViewController.m333011696#333011698#0(0"0(0#0#96"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleViewController.m8603440640#2352"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-generated-files.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-own-target-headers.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-all-target-headers.hmap" -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-project-headers.hmap" "-F/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/include" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources/i386" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources" -include /var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch -c "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/CarouselExampleViewController.m" -o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExampleViewController.o"0#
+
+CCompileC build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/iCarousel.o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/iCarousel/iCarousel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s333008174.970131
+e333008175.612315
+r1
+xCompileC
+xbuild/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/iCarousel.o
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/iCarousel/iCarousel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/iCarousel/iCarousel.m333008174#333008175#0(0"0(0#0#86"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/iCarousel/iCarousel.m8615612320#2322"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-generated-files.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-own-target-headers.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-all-target-headers.hmap" -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-project-headers.hmap" "-F/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/include" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources/i386" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources" -include /var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch -c "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/Classes/iCarousel/iCarousel.m" -o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/iCarousel.o"0#
+
+CCompileC build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/main.o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s333008174.510845
+e333008174.856039
+r1
+xCompileC
+xbuild/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/main.o
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/macbook/Documents/Tmp/Native Apps/CarouselExample/main.m333008174#333008174#0(0"0(0#0#63"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/main.m8624985280#2294"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-generated-files.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-own-target-headers.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-all-target-headers.hmap" -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-project-headers.hmap" "-F/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/include" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources/i386" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources" -include /var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch -c "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/main.m" -o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExampleViewController.xib"
+s333008161.133500
+e333008167.487605
+r1
+xCompileXIB
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExampleViewController.xib
+lSLF07#2@44"CompileXIB CarouselExampleViewController.xib333008161#333008167#0(0"0(0#0#90"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExampleViewController.xib8625324800#676"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExampleViewController.nib" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExampleViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/MainWindow.xib"
+s333008161.131431
+e333008167.541389
+r1
+xCompileXIB
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib333008161#333008167#0(0"0(0#0#71"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/MainWindow.xib8625489056#638"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/MainWindow.nib" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/CarouselExample.app/patrickstar.png patrickstar.png
+s333008167.538061
+e333008167.732462
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CarouselExample.app/patrickstar.png
+xpatrickstar.png
+lSLF07#2@20"Copy patrickstar.png333008167#333008167#0(0"0(0#0#72"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/patrickstar.png8624838464#541"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/patrickstar.png" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app"0#
+
+CCpResource build/Debug-iphonesimulator/CarouselExample.app/smiley1.jpg smiley1.jpg
+s333008167.538981
+e333008167.732617
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CarouselExample.app/smiley1.jpg
+xsmiley1.jpg
+lSLF07#2@16"Copy smiley1.jpg333008167#333008167#0(0"0(0#0#68"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley1.jpg8604777632#537"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley1.jpg" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app"0#
+
+CCpResource build/Debug-iphonesimulator/CarouselExample.app/smiley2.jpg smiley2.jpg
+s333008167.539778
+e333008167.733006
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CarouselExample.app/smiley2.jpg
+xsmiley2.jpg
+lSLF07#2@16"Copy smiley2.jpg333008167#333008167#0(0"0(0#0#68"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley2.jpg8625719392#537"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley2.jpg" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app"0#
+
+CCpResource build/Debug-iphonesimulator/CarouselExample.app/smiley3.jpg smiley3.jpg
+s333008167.540520
+e333008167.732771
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CarouselExample.app/smiley3.jpg
+xsmiley3.jpg
+lSLF07#2@16"Copy smiley3.jpg333008167#333008167#0(0"0(0#0#68"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley3.jpg8625462112#537"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/smiley3.jpg" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app"0#
+
+CCpResource build/Debug-iphonesimulator/CarouselExample.app/spongebob.png spongebob.png
+s333008167.487808
+e333008167.747999
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CarouselExample.app/spongebob.png
+xspongebob.png
+lSLF07#2@18"Copy spongebob.png333008167#333008167#0(0"0(0#0#70"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/spongebob.png8625734048#539"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/spongebob.png" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app"0#
+
+CGenerateDSYMFile "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app.dSYM" "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample"
+s333011698.726062
+e333011698.788861
+r1
+xGenerateDSYMFile
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app.dSYM
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/CarouselExample.app.dSYM build/Debug-iphonesimulator/CarouselExample.app/CarouselExample333011698#333011698#0(0"0(0#0#120"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample8618531904#467"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample" -o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app.dSYM"0#
+
+CLd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample" normal i386
+s333011698.495298
+e333011698.725944
+r1
+xLd
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample
+xnormal
+xi386
+lSLF07#2@125"Link /Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample333011698#333011698#0(0"0(0#0#0"8615337984#1062"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator" "-F/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator" -filelist "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/Objects-normal/i386/CarouselExample.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/CarouselExample"0#
+
+CProcessInfoPlistFile "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/Info.plist" CarouselExample-Info.plist
+s333008161.085246
+e333008161.131323
+r1
+xProcessInfoPlistFile
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/Info.plist
+xCarouselExample-Info.plist
+lSLF07#2@34"Process CarouselExample-Info.plist333008161#333008161#0(0"0(0#0#83"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExample-Info.plist8618612192#563"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CarouselExample-Info.plist -genpkginfo "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app/Info.plist"0#
+
+CProcessPCH /var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch.gch CarouselExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333008167.748133
+e333008174.510675
+r1
+xProcessPCH
+x/var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch.gch
+xCarouselExample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile CarouselExample_Prefix.pch333008167#333008174#0(0"0(0#0#83"/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExample_Prefix.pch8623715040#2158"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-generated-files.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-own-target-headers.hmap" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-all-target-headers.hmap" -iquote "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/CarouselExample-project-headers.hmap" "-F/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/include" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources/i386" "-I/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/CarouselExample.build/Debug-iphonesimulator/CarouselExample.build/DerivedSources" -c "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/CarouselExample_Prefix.pch" -o /var/folders/+Z/+ZJJAKEVH9GUb+8OOfr1OE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CarouselExample_Prefix-gufkrhmdlngzxggqxnlvqrsevttw/CarouselExample_Prefix.pch.gch0#
+
+CTouch "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app"
+s333011698.788994
+e333011698.809365
+r1
+xTouch
+x/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app
+lSLF07#2@110"Touch /Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app333011698#333011698#0(0"0(0#0#0"8615739680#326"    cd "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/macbook/Documents/Tmp/Native Apps/CarouselExample/build/Debug-iphonesimulator/CarouselExample.app"0#
+

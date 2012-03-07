@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* CarouselExampleAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 522}";
+		};
+	};
+	1D3623250D0F684500981E51 /* CarouselExampleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1144}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{0, 818}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* CarouselExample */ = {
+		activeExec = 0;
+		executables = (
+			FAA95BD313D94BC6003E9675 /* CarouselExample */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* CarouselExampleViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 618}}";
+			sepNavSelRange = "{287, 0}";
+			sepNavVisRange = "{0, 322}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* CarouselExampleViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 923}}";
+			sepNavSelRange = "{816, 0}";
+			sepNavVisRange = "{498, 1483}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FAA95BD313D94BC6003E9675 /* CarouselExample */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CarouselExample */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* CarouselExample */,
+		);
+		codeSenseManager = FAA95BDE13D94BE5003E9675 /* Code sense */;
+		executables = (
+			FAA95BD313D94BC6003E9675 /* CarouselExample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 333008932;
+			PBXWorkspaceStateSaveDate = 333008932;
+		};
+		perUserProjectItems = {
+			FAA95C0D13D94FED003E9675 /* PBXTextBookmark */ = FAA95C0D13D94FED003E9675 /* PBXTextBookmark */;
+			FAA95C4F13D95AA6003E9675 /* PBXTextBookmark */ = FAA95C4F13D95AA6003E9675 /* PBXTextBookmark */;
+			FAA95C5013D95AA6003E9675 /* PBXTextBookmark */ = FAA95C5013D95AA6003E9675 /* PBXTextBookmark */;
+			FAA95C5113D95AA6003E9675 /* PBXTextBookmark */ = FAA95C5113D95AA6003E9675 /* PBXTextBookmark */;
+			FAA95C6A13D95C08003E9675 /* PBXTextBookmark */ = FAA95C6A13D95C08003E9675 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FAA95BDD13D94BE5003E9675 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FAA95BD313D94BC6003E9675 /* CarouselExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CarouselExample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FAA95BDD13D94BE5003E9675 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FAA95BDE13D94BE5003E9675 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FAA95C0D13D94FED003E9675 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CarouselExampleAppDelegate.h */;
+		name = "CarouselExampleAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 0;
+	};
+	FAA95C4F13D95AA6003E9675 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CarouselExampleAppDelegate.m */;
+		name = "CarouselExampleAppDelegate.m: 6";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 818;
+		vrLoc = 0;
+	};
+	FAA95C5013D95AA6003E9675 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CarouselExampleViewController.h */;
+		name = "CarouselExampleViewController.h: 12";
+		rLen = 0;
+		rLoc = 287;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 0;
+	};
+	FAA95C5113D95AA6003E9675 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CarouselExampleViewController.m */;
+		name = "CarouselExampleViewController.m: 33";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 1425;
+		vrLoc = 322;
+	};
+	FAA95C6A13D95C08003E9675 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CarouselExampleViewController.m */;
+		name = "CarouselExampleViewController.m: 31";
+		rLen = 0;
+		rLoc = 816;
+		rType = 0;
+		vrLen = 1483;
+		vrLoc = 498;
+	};
+}
