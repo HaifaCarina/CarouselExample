@@ -18,7 +18,7 @@
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-
+    
 	[super loadView];
 	
 	self.view.backgroundColor = [UIColor grayColor];
@@ -37,13 +37,13 @@
 	carousel.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     carousel.type = iCarouselTypeRotary;
 	carousel.dataSource = self;
-	
+	carousel.delegate = self;
 	[self.view addSubview:carousel];
 }
 
 
 #pragma mark -
-#pragma mark iCarousel methods
+#pragma mark iCarousel datasource methods
 
 - (NSUInteger)numberOfItemsInCarousel:(iCarousel *)carousel
 {
@@ -57,10 +57,19 @@
 	[button setBackgroundImage:image forState:UIControlStateNormal];
 	[button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 	button.titleLabel.font = [button.titleLabel.font fontWithSize:50];
-	//[button addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
 	button.tag=index;
 	return button;
 	
+}
+
+#pragma mark -
+#pragma mark iCarousel delegate methods
+
+- (void)carousel: (iCarousel *)_carousel didSelectItemAtIndex:(NSInteger)index
+{
+    
+    NSLog(@"Did select item at index %d",index); // sample
+    
 }
 
 - (void)dealloc {

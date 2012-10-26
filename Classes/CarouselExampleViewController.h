@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "iCarousel.h"
 
-@interface CarouselExampleViewController : UIViewController <iCarouselDataSource> {
+@interface CarouselExampleViewController : UIViewController <iCarouselDataSource ,iCarouselDelegate> {
 	iCarousel *carousel;
 }
 
